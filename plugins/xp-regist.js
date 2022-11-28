@@ -18,9 +18,9 @@ let handler = async function (m, { text, usedPrefix }) {
   m.reply(`
 Regístro 🌌 galactico 🌌 con éxito!
 
-╭─「🌌 Info 🌌」
-│ Nama: ${name}
-│ Umur: ${age} año 
+╭─「🌌 𝐈𝐍𝐅𝐎 🌌」
+│ 𝙉𝙊𝙈𝘽𝙍𝙀: ${name} 
+│ 𝙀𝘿𝘼𝘿: ${age} año 
 ╰────
 Serial Number: 
 ${sn}

@@ -8,8 +8,8 @@ let handler = async function (m, { text, usedPrefix }) {
   if (!name) throw 'Los nombres no pueden estar vacíos (Alphanumeric)'
   if (!age) throw 'La edad no puede estar vacía (Número)'
   age = parseInt(age)
-  if (age > 120) throw 'edad demasiado vieja 😂'
-  if (age < 5) throw 'Los bebés pueden escribir según el poder galáctico'
+  if (age > 120) throw '𝚃𝚊𝚗 𝚟𝚒𝚎𝚓𝚘 𝚎𝚛𝚎𝚜 𝚖𝚒 𝚊𝚋𝚞𝚎𝚕𝚘/𝚊 '
+  if (age < 5) throw '𝙻𝚘𝚜 𝚋𝚎𝚋𝚎𝚜 𝚜𝚊𝚋𝚎𝚗 𝙴𝚜𝚌𝚛𝚒𝚋𝚒𝚛 😳'
   user.name = name.trim()
   user.age = age
   user.regTime = + new Date
@@ -19,8 +19,8 @@ let handler = async function (m, { text, usedPrefix }) {
 Regístro 🌌 galactico 🌌 con éxito!
 
 ╭─「🌌 𝐈𝐍𝐅𝐎 🌌」
-│ 𝙉𝙊𝙈𝘽𝙍𝙀: ${name} 
-│ 𝙀𝘿𝘼𝘿: ${age} año 
+│ 👤𝙉𝙊𝙈𝘽𝙍𝙀: ${name} 
+│ 👑𝙀𝘿𝘼𝘿: ${age} año 
 ╰────
 Serial Number: 
 ${sn}
